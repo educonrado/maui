@@ -10,7 +10,7 @@
 .vsconfig
 .vs/
 
-# Directorios de compilación
+# Directorios de compilación 
 [Bb]in/
 [Oo]bj/
 [Tt]humbs.db

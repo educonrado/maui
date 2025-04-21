@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\net\\calificaciones\\calificaciones.csproj": {}
+    "D:\\Dev\\net\\maui\\calificaciones\\calificaciones.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\net\\calificaciones\\calificaciones.csproj": {
+    "D:\\Dev\\net\\maui\\calificaciones\\calificaciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\net\\calificaciones\\calificaciones.csproj",
+        "projectUniqueName": "D:\\Dev\\net\\maui\\calificaciones\\calificaciones.csproj",
         "projectName": "calificaciones",
-        "projectPath": "D:\\Dev\\net\\calificaciones\\calificaciones.csproj",
+        "projectPath": "D:\\Dev\\net\\maui\\calificaciones\\calificaciones.csproj",
         "packagesPath": "C:\\Users\\excz\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\net\\calificaciones\\obj\\",
+        "outputPath": "D:\\Dev\\net\\maui\\calificaciones\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

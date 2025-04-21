@@ -1,0 +1,108 @@
+# .gitignore para Visual Studio 2022 + C# + .NET MAUI
+# Ignora artefactos de compilación, dependencias y configuraciones temporales
+
+### Visual Studio 2022 ###
+# Archivos de usuario y caché
+*.suo
+*.user
+*.userosscache
+*.vs/
+.vsconfig
+.vs/
+
+# Directorios de compilación
+[Bb]in/
+[Oo]bj/
+[Tt]humbs.db
+*.ilk
+*.pdb
+*.cache
+*.nupkg.metadata
+
+# Salidas de publicación
+pub/
+PublishProfiles/
+*.pubxml
+
+### .NET MAUI ###
+# Artefactos específicos de plataforma
+android/bin/
+android/obj/
+ios/bin/
+ios/obj/
+maccatalyst/bin/
+maccatalyst/obj/
+windows/bin/
+windows/obj/
+macos/bin/
+macos/obj/
+
+# Recursos compilados y bundles
+Resources/Designer/
+*.resources
+*.bundle
+*.app
+*.ipa
+*.apk
+*.appx
+*.msix
+*.keystore
+
+### .NET Core/5+/6+/7+ ###
+# Salidas del SDK
+**/Properties/launchSettings.json
+dotnet/
+*.runtimeconfig.json
+*.Dockerfile
+
+### C# ###
+# Ejecutables y salidas
+*.exe
+*.dll
+*.lib
+*.xml
+*.config
+*.bak
+*.log
+*.tlog
+*.csproj.user
+
+# Depuración y perfiles
+debug/
+release/
+profile/
+*.binlog
+*.coverage
+coverage.*
+*.testlog
+
+### NuGet ###
+packages/
+**/packages.lock.json
+.nuget/
+nuget.exe
+
+### IDEs y Herramientas ###
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Rider
+.idea/
+*.idea
+
+# ReSharper
+*.DotSettings.user
+_ReSharper*
+
+### Misceláneo ###
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+
+# Third-party
+node_modules/
+bower_components/
+jspm_packages/

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="calificaciones.Views.Notas"
+             Title="Notas">
+    <ScrollView Margin="20">
+        <VerticalStackLayout>
+            <Image Source="boleta.png"
+                   MaximumWidthRequest="100"></Image>
+            <Label 
+                Text="Sistema de calificaciones"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontSize="20"
+                TextColor="Azure"/>
+            <Label Text="---------------------------" HorizontalOptions="Center"></Label>
+            <Line/>
+            <StackLayout Orientation="Vertical" Spacing="10">
+                <Label Text="Estudiante:"></Label>
+                <Picker x:Name="PCK_ESTUDIANTE">
+                    <Picker.Items>
+                        <x:String>Eduardo Conrado</x:String>
+                        <x:String>Katty Vergara</x:String>
+                        <x:String>Lucia Fernandez</x:String>
+                        <x:String>Piero H</x:String>
+                        <x:String>Hermes C</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Line></Line>
+                <Label Text="Parcial 1"
+                       FontSize="18"></Label>
+                <Label Text="Ingrese calificación de seguimiento:"></Label>
+                <Entry x:Name="Txt_Seguimiento1"
+                       Keyboard="Numeric"
+                       MaxLength="5"
+                       Placeholder="Seguimiento 1"></Entry>
+                <Label Text="Ingrese calificación de exámen:"></Label>
+                <Entry x:Name="Txt_Examen1"
+                       Keyboard="Numeric"
+                       MaxLength="5"
+                       Placeholder="Exámen 1"></Entry>
+
+                <Line></Line>
+                <Label Text="Parcial 2"
+                       FontSize="18"></Label>
+                <Label Text="Ingrese calificación de seguimiento:"></Label>
+                <Entry x:Name="Txt_Seguimiento2"
+                       Keyboard="Numeric"
+                       MaxLength="5"
+                       Placeholder="Seguimiento 2"></Entry>
+                <Label Text="Ingrese calificación de exámen:"></Label>
+                <Entry x:Name="Txt_Examen2"
+                       Keyboard="Numeric"
+                       MaxLength="5"
+                       Placeholder="Exámen 2"></Entry>
+                <Label Text="Fecha de registro:"></Label>
+                <DatePicker x:Name="Dp_Fecha"></DatePicker>
+
+                <Line/>
+                <Label x:Name="Lbl_Nota_Final"
+                       Text="Empty"
+                       FontSize="16"
+                       TextColor="Tomato"
+                       HorizontalOptions="Center"></Label>
+                <Line/>
+                <Button x:Name="Btn_Calcular"
+                        Text="Calcular notas de estudiante"
+                        HorizontalOptions="Center"
+                        Clicked="Btn_Calcular_Clicked"></Button>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

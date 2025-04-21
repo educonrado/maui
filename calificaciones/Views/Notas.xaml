@@ -58,7 +58,7 @@
 
                 <Line/>
                 <Label x:Name="Lbl_Nota_Final"
-                       Text="Empty"
+                       Text=""
                        FontSize="16"
                        TextColor="Tomato"
                        HorizontalOptions="Center"></Label>

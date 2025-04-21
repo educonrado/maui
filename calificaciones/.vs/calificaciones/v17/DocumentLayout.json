@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Dev\\net\\calificaciones\\",
+  "WorkspaceRootPath": "D:\\Dev\\net\\maui\\calificaciones\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E727C2F-79E1-45FD-B12A-79E2DD3857B4}|calificaciones.csproj|d:\\dev\\net\\calificaciones\\views\\notas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E727C2F-79E1-45FD-B12A-79E2DD3857B4}|calificaciones.csproj|solutionrelative:views\\notas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E727C2F-79E1-45FD-B12A-79E2DD3857B4}|calificaciones.csproj|d:\\dev\\net\\maui\\calificaciones\\views\\notas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E727C2F-79E1-45FD-B12A-79E2DD3857B4}|calificaciones.csproj|solutionrelative:views\\notas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E727C2F-79E1-45FD-B12A-79E2DD3857B4}|calificaciones.csproj|d:\\dev\\net\\calificaciones\\views\\notas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7E727C2F-79E1-45FD-B12A-79E2DD3857B4}|calificaciones.csproj|solutionrelative:views\\notas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7E727C2F-79E1-45FD-B12A-79E2DD3857B4}|calificaciones.csproj|d:\\dev\\net\\maui\\calificaciones\\views\\notas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E727C2F-79E1-45FD-B12A-79E2DD3857B4}|calificaciones.csproj|solutionrelative:views\\notas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +26,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Notas.xaml.cs",
-              "DocumentMoniker": "D:\\Dev\\net\\calificaciones\\Views\\Notas.xaml.cs",
+              "DocumentMoniker": "D:\\Dev\\net\\maui\\calificaciones\\Views\\Notas.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Notas.xaml.cs",
-              "ToolTip": "D:\\Dev\\net\\calificaciones\\Views\\Notas.xaml.cs",
+              "ToolTip": "D:\\Dev\\net\\maui\\calificaciones\\Views\\Notas.xaml.cs",
               "RelativeToolTip": "Views\\Notas.xaml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAmwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T23:52:31.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Notas.xaml",
-              "DocumentMoniker": "D:\\Dev\\net\\calificaciones\\Views\\Notas.xaml",
+              "DocumentMoniker": "D:\\Dev\\net\\maui\\calificaciones\\Views\\Notas.xaml",
               "RelativeDocumentMoniker": "Views\\Notas.xaml",
-              "ToolTip": "D:\\Dev\\net\\calificaciones\\Views\\Notas.xaml",
+              "ToolTip": "D:\\Dev\\net\\maui\\calificaciones\\Views\\Notas.xaml",
               "RelativeToolTip": "Views\\Notas.xaml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEgAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-20T23:52:16.803Z",
               "EditorCaption": ""

@@ -42,7 +42,8 @@ public partial class Notas : ContentPage
     {
         double nota_final = nota_1 + nota_2;
         string resultado = Verificar_Estado(nota_final);
-        Mostrar_Alerta("Calificaciones", $"Nombre: \t\t{PCK_ESTUDIANTE.SelectedItem.ToString()}\n" +
+        this.Lbl_Nota_Final.Text = resultado;
+        Mostrar_Alerta("Calificaciones", $"Nombre: \t\t{PCK_ESTUDIANTE.SelectedItem?.ToString()}\n" +
             $"Fecha: \t\t{Dp_Fecha.Date}\n" +
             $"Nota parcial 1: \t{nota_1}\n" +
             $"Nota parcial 2: \t{nota_2}\n" +

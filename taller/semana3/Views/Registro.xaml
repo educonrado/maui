@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="econradoT3.Views.Registro"
+             Title="Registro">
+    <ScrollView Margin="20">
+        <VerticalStackLayout Spacing="20">
+            <Label 
+            Text="Registro de contactos"
+            FontSize="22"
+            TextColor="CadetBlue"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+            <StackLayout Orientation="Vertical" Spacing="20">
+                <Label Text="Tipo de identificación"></Label>
+                <Picker x:Name="pckTipoIdentificacion">
+                    <Picker.Items>
+                        <x:String>CI</x:String>
+                        <x:String>RUC</x:String>
+                        <x:String>Pasaporte</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Entry x:Name="txtIdentificacion"
+                       Keyboard="Text"
+                       MaxLength="15"
+                       Placeholder="Ingrese identificación"></Entry>
+                <Label Text="Nombres"></Label>
+                <Entry x:Name="txtNombres"
+                       Keyboard="Text"
+                       MaxLength="50"
+                       Placeholder="Ingrese su nombre"
+                   >
+                </Entry>
+                <Label Text="Apellidos"></Label>
+                <Entry x:Name="txtApellidos"
+                   Keyboard="Text"
+                   MaxLength="50"
+                       Placeholder="Ingrese su apellido"
+                   >
+                </Entry>
+                <Label Text="Fecha"></Label>
+                <DatePicker x:Name="dpckFecha"></DatePicker>
+                <Label Text="Correo"></Label>
+                <Entry x:Name="txtCorreo"
+                   Keyboard="Email"
+                   MaxLength="50"
+                   >
+                </Entry>
+                <Label Text="Salario"></Label>
+                <Entry x:Name="txtSalario"
+                   Keyboard="Numeric"
+                   MaxLength="10"
+                       Placeholder="Ingrese su salario"
+                   >
+                </Entry>
+            </StackLayout>
+            <Button x:Name="btnRegistrar"
+                Clicked="btnRegistrar_Clicked"
+                Text="Registrar"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

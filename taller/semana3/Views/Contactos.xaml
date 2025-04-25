@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="econradoT3.Views.Contactos"
+             Title="Contactos">
+    <ScrollView Padding="20">
+        <VerticalStackLayout Spacing="20">
+            <Label 
+                    Text="Contactos"
+                    VerticalOptions="Center"
+                    FontSize="22"
+                    HorizontalOptions="Center" />
+            <Button x:Name="btnNuevo"
+                    Text="Nuevo"
+                    Clicked="btnNuevo_Clicked"></Button> 
+            <TableView Intent="Form">
+                <TableRoot>
+                    <TableSection Title="Listado">
+                        <TextCell Text="1. Introduction to .NET MAUI"
+                  Detail="Learn about .NET MAUI and what it provides." />
+                    </TableSection>
+                </TableRoot>
+
+            </TableView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

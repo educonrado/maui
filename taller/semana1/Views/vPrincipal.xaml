@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="econradoT1.Views.vPrincipal"
+             Title="vPrincipal">
+    <ScrollView>
+        <VerticalStackLayout Padding="25"
+                             Spacing="20"
+                             VerticalOptions="Fill">
+
+            <Image 
+                Source="https://www.uisrael.edu.ec/wp-content/uploads/2023/03/MENU-WEB-3-2048x517.jpg"
+                MaximumWidthRequest="250"/>
+            <Image
+                Source="dotnet_bot.png"
+                MaximumWidthRequest="50"/>
+            <Label 
+                Text="Taller semana 1"
+                FontSize="20"
+                TextColor="CornflowerBlue"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label Text="Formulario de registro"
+                   FontSize="18"
+                   TextColor="CadetBlue"/>
+        
+            <StackLayout Orientation="Vertical">
+                <Label Text="Identificación:"/>
+                <Entry x:Name="txtIdentificacion" 
+                       Placeholder="Digite la identificación" 
+                       Keyboard="Text"
+                       MaxLength="13"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Apellido Paterno:"/>
+                <Entry x:Name="txtApellidoPaterno" 
+                       Placeholder="Ingrese el Apellido Paterno" 
+                       Keyboard="Text"
+                       MaxLength="20"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Apellido Materno:"/>
+                <Entry x:Name="txtApellidoMaterno" 
+                       Placeholder="Ingrese el Apellido Materno" 
+                       Keyboard="Text"
+                       MaxLength="20"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Nombres completos:"/>
+                <Entry x:Name="txtNombres" 
+                       Placeholder="Ingrese sus nombres" 
+                       Keyboard="Text"
+                       MaxLength="50"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Teléfono personal:"/>
+                <Entry x:Name="txtTelefono" 
+                       Placeholder="Ingrese teléfono" 
+                       Keyboard="Telephone"
+                       MaxLength="15"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Correo personal:"/>
+                <Entry x:Name="txtCorreo" 
+                       Placeholder="Ingrese correo" 
+                       Keyboard="Email"
+                       MaxLength="30"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Confirmar correo:"/>
+                <Entry x:Name="txtCorreoVerificacion" 
+                       Placeholder="Repita correo" 
+                       Keyboard="Email"
+                       MaxLength="30"></Entry>
+            </StackLayout>
+
+            <Button x:Name="btnGuardar"
+             Clicked="BtnGuardar_Clicked"
+             Text="Guardar"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

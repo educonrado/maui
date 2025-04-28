@@ -6,19 +6,20 @@ using System.Threading.Tasks;
 
 namespace econradoT3.Model
 {
-    internal class Contacto
+    public class Contacto
     {
 
 
         public int ID;
 
-        public Contacto(string identificacion, string nombre, string apellido, DateTime fecha, double salario)
+        public Contacto(string identificacion, string nombre, string apellido, DateTime fecha, double salario, string aportes)
         {
             Identificacion = identificacion;
             Nombre = nombre;
             Apellido = apellido;
             Fecha = fecha;
             Salario = salario;
+            Aportes = aportes;
         }
 
         public string Identificacion {get; set;}
@@ -26,5 +27,8 @@ namespace econradoT3.Model
         public string Apellido { get; set; }
         public DateTime Fecha { get; set; }
         public double Salario { get; set; }
+        public string Aportes { get; set; }
+
+        public override string? ToString() => $"Identificación: {Identificacion ?? "N/A"}, Nombre: {Nombre ?? "N/A"} {Apellido ?? "N/A"}, Fecha: {Fecha:yyyy-MM-dd}, Salario: {Salario:C}, Aporte IESS: {Aportes}";
     }
 }

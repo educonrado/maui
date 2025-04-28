@@ -5,6 +5,8 @@
              Title="Contactos">
     <ScrollView Padding="20">
         <VerticalStackLayout Spacing="20">
+            <Image Source="agenda.png"
+                    Aspect="Center"></Image>
             <Label 
                     Text="Contactos"
                     VerticalOptions="Center"
@@ -12,16 +14,13 @@
                     HorizontalOptions="Center" />
             <Button x:Name="btnNuevo"
                     Text="Nuevo"
-                    Clicked="btnNuevo_Clicked"></Button> 
-            <TableView Intent="Form">
-                <TableRoot>
-                    <TableSection Title="Listado">
-                        <TextCell Text="1. Introduction to .NET MAUI"
-                  Detail="Learn about .NET MAUI and what it provides." />
-                    </TableSection>
-                </TableRoot>
-
+                    Clicked="btnNuevo_Clicked"></Button>
+            <TableView Intent="Form" x:Name="contactosTableView">
+                <TableRoot/>
             </TableView>
+            <Button x:Name="Btn_Exportar_Contactos"
+                    Text="Exportar"
+                    Clicked="Btn_Exportar_Contactos_Clicked"></Button>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

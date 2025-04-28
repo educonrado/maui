@@ -5,6 +5,8 @@
              Title="Registro">
     <ScrollView Margin="20">
         <VerticalStackLayout Spacing="20">
+            <Image Source="acceso.png"
+                   Aspect="Center"></Image>
             <Label 
             Text="Registro de contactos"
             FontSize="22"

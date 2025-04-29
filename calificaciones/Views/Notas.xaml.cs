@@ -6,9 +6,10 @@ public partial class Notas : ContentPage
 {
     readonly double factor_seguimiento = 0.3;
     readonly double factor_examen = 0.2;
-    public Notas()
+    public Notas(string nombre)
     {
         InitializeComponent();
+        Mostrar_Alerta("", $"Bienvenid@ {nombre.ToUpper()}");
     }
     private void Btn_Calcular_Clicked(object sender, EventArgs e)
     {
@@ -107,5 +108,10 @@ public partial class Notas : ContentPage
     private void Mostrar_Alerta(string titulo, string mensaje, string boton = "Aceptar")
     {
         DisplayAlert(titulo, mensaje, boton);
+    }
+
+    private void Btn_Salir_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Views.Login());
     }
 }

@@ -67,6 +67,11 @@
                         Text="Calcular notas de estudiante"
                         HorizontalOptions="Center"
                         Clicked="Btn_Calcular_Clicked"></Button>
+                <Button x:Name="Btn_Salir"
+                        Text="Logout"
+                        BackgroundColor="DarkSalmon"
+                        HorizontalOptions="Center"
+                        Clicked="Btn_Salir_Clicked"></Button>
             </StackLayout>
         </VerticalStackLayout>
     </ScrollView>

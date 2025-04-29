@@ -63,6 +63,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\Login.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Update="Views\Notas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </None>

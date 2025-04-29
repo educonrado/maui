@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Dev\net\maui\calificaciones\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-21T01:36:41.459</Modified>
+      <Modified>2025-04-29T02:27:03.343</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-21T01:30:16.732</Modified>
+      <Modified>2025-04-29T01:35:49.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\calificaciones.runtimeconfig.json">
       <PackagePath>calificaciones.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\calificaciones.dll">
       <PackagePath>calificaciones.dll</PackagePath>
-      <Modified>2025-04-21T01:36:40.327</Modified>
+      <Modified>2025-04-29T02:27:02.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>calificaciones.exe</PackagePath>
-      <Modified>2025-04-21T01:36:40.405</Modified>
+      <Modified>2025-04-29T02:27:02.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -82,217 +82,221 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2025-04-20T23:50:43.615</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-100.png">
+      <PackagePath>account.scale-100.png</PackagePath>
+      <Modified>2025-04-29T01:32:53.637</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-04-21T01:14:09.143</Modified>
+      <Modified>2025-04-29T01:32:53.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.126</Modified>
+      <Modified>2025-04-29T01:32:53.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.121</Modified>
+      <Modified>2025-04-29T01:32:53.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.121</Modified>
+      <Modified>2025-04-29T01:32:53.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.121</Modified>
+      <Modified>2025-04-29T01:32:53.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.121</Modified>
+      <Modified>2025-04-29T01:32:53.637</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.135</Modified>
+      <Modified>2025-04-29T01:32:53.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.135</Modified>
+      <Modified>2025-04-29T01:32:53.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.650</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.650</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.143</Modified>
+      <Modified>2025-04-29T01:32:53.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.143</Modified>
+      <Modified>2025-04-29T01:32:53.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.138</Modified>
+      <Modified>2025-04-29T01:32:53.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.130</Modified>
+      <Modified>2025-04-29T01:32:53.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.130</Modified>
+      <Modified>2025-04-29T01:32:53.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.130</Modified>
+      <Modified>2025-04-29T01:32:53.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.130</Modified>
+      <Modified>2025-04-29T01:32:53.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.126</Modified>
+      <Modified>2025-04-29T01:32:53.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.132</Modified>
+      <Modified>2025-04-29T01:32:53.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.132</Modified>
+      <Modified>2025-04-29T01:32:53.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.132</Modified>
+      <Modified>2025-04-29T01:32:53.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.132</Modified>
+      <Modified>2025-04-29T01:32:53.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.130</Modified>
+      <Modified>2025-04-29T01:32:53.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.135</Modified>
+      <Modified>2025-04-29T01:32:53.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.135</Modified>
+      <Modified>2025-04-29T01:32:53.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.135</Modified>
+      <Modified>2025-04-29T01:32:53.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.135</Modified>
+      <Modified>2025-04-29T01:32:53.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.135</Modified>
+      <Modified>2025-04-29T01:32:53.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.126</Modified>
+      <Modified>2025-04-29T01:32:53.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.126</Modified>
+      <Modified>2025-04-29T01:32:53.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.126</Modified>
+      <Modified>2025-04-29T01:32:53.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.126</Modified>
+      <Modified>2025-04-29T01:32:53.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.126</Modified>
+      <Modified>2025-04-29T01:32:53.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\boleta.scale-100.png">
       <PackagePath>boleta.scale-100.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.121</Modified>
+      <Modified>2025-04-29T01:32:53.637</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.143</Modified>
+      <Modified>2025-04-29T01:32:53.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.143</Modified>
+      <Modified>2025-04-29T01:32:53.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.143</Modified>
+      <Modified>2025-04-29T01:32:53.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.143</Modified>
+      <Modified>2025-04-29T01:32:53.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-04-21T01:14:09.143</Modified>
+      <Modified>2025-04-29T01:32:53.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\net\maui\calificaciones\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\calificaciones.deps.json">
       <PackagePath>calificaciones.deps.json</PackagePath>
-      <Modified>2025-04-21T01:30:15.707</Modified>
+      <Modified>2025-04-29T01:35:48.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\excz\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

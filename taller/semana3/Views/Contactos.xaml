@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="econradoT3.Views.Contactos"
+             Title="Contactos">
+    <ScrollView Padding="20">
+        <VerticalStackLayout Spacing="20">
+            <Image Source="agenda.png"
+                    Aspect="Center"></Image>
+            <Label 
+                    Text="Contactos"
+                    VerticalOptions="Center"
+                    FontSize="22"
+                    HorizontalOptions="Center" />
+            <Button x:Name="btnNuevo"
+                    Text="Nuevo"
+                    Clicked="btnNuevo_Clicked"></Button>
+            <TableView Intent="Form" x:Name="contactosTableView">
+                <TableRoot/>
+            </TableView>
+            <Button x:Name="Btn_Exportar_Contactos"
+                    Text="Exportar"
+                    Clicked="Btn_Exportar_Contactos_Clicked"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

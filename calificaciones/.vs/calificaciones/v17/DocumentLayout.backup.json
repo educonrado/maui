@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Views\\Login.xaml.cs",
               "ToolTip": "D:\\Dev\\net\\maui\\calificaciones\\Views\\Login.xaml.cs",
               "RelativeToolTip": "Views\\Login.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T01:43:57.188Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T01:33:41.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T01:33:41.801Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-29T01:33:38.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T01:33:38.399Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Views\\Login.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-29T01:30:44.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T01:30:44.55Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Views\\Notas.xaml.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAQwHIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T23:52:31.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T23:52:31.581Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "Views\\Notas.xaml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-20T23:52:16.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T23:52:16.803Z"
             }
           ]
         }

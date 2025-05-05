@@ -106,3 +106,23 @@ _ReSharper*
 node_modules/
 bower_components/
 jspm_packages/
+
+# Excluir archivos de configuración de Visual Studio
+calificaciones/.vs/
+
+# Excluir archivos de compilación y binarios
+calificaciones/bin/
+calificaciones/obj/
+
+# Excluir archivos específicos
+calificaciones/.vs/calificaciones/v17/.suo
+calificaciones/.vs/calificaciones/v17/DocumentLayout.backup.json
+calificaciones/.vs/calificaciones/v17/DocumentLayout.json
+calificaciones/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/AppX/calificaciones.dll
+calificaciones/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/AppX/calificaciones.exe
+calificaciones/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/AppX/vs.appxrecipe
+calificaciones/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/calificaciones.build.appxrecipe
+calificaciones/obj/Debug/net8.0-android/calificaciones.assets.cache
+calificaciones/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/apphost.exe
+calificaciones/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/calificaciones.assets.cache
+calificaciones/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/calificaciones.csproj.FileListAbsolute.txt

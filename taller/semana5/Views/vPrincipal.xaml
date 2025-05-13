@@ -8,13 +8,15 @@
                          Padding="20">
             <Label 
             Text="Semana 5 SQLite"
-            FontSize="20"
-            TextColor="DarkBlue"
+            FontSize="30"
+            TextColor="DarkCyan"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
             <Entry x:Name="txtNombre"
                     Placeholder="Ingrese su nombre"
-                    MaxLength="25"></Entry>
+                    MaxLength="25"
+                   Keyboard="Text"
+                   ></Entry>
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition/>
@@ -35,24 +37,31 @@
                 <Label x:Name="lblStatus"
                        Grid.Column="0"
                        Grid.Row="1"/>
-                <Button x:Name="btnListar"
-                        Text="Listar personas"
-                        Clicked="btnListar_Clicked"
-                        Grid.Column="0"
-                        Grid.Row="2"></Button>
+
+                <Label Text="Listado de personas"
+                       Margin="30"
+                       FontSize="20"
+                       TextColor="Aqua"
+                       Grid.Column="0"
+                       Grid.Row="2"></Label>
+
                 <CollectionView x:Name="listaPersona"
                                 Grid.Column="0"
-                                Grid.Row="3"
-                                HorizontalOptions="Center"
-                                MaximumWidthRequest="200">
+                                Grid.Row="3"                              
+                                Margin="20" 
+                                >
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
+                            
                             <Grid>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition/>
-                                    <ColumnDefinition/>
-                                    <ColumnDefinition/>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="50"/>
                                 </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+</Grid.RowDefinitions>
                                 <Label Text="{Binding Id}"
                                        Grid.Column="0"/>
                                 <Label Text="{Binding Name}"
@@ -60,7 +69,20 @@
                                 <Button x:Name="btnEditar"
                                         Text="Editar"
                                         Clicked="btnEditar_Clicked"
-                                        Grid.Column="2"></Button>
+                                        Grid.Column="2"
+                                        WidthRequest="20"
+                                        ImageSource="pen.png"
+                                        BackgroundColor="Black" 
+                                        ToolTipProperties.Text="Editar"
+                                        ></Button>
+                                <Button x:Name="btnEliminar"
+                                        Text="Eliminar"
+                                        Clicked="btnEliminar_Clicked"
+                                        Grid.Column="3"
+                                        WidthRequest="20"
+                                        ImageSource="delete.png"
+                                        Background="Black"
+                                        ToolTipProperties.Text="Eliminar"></Button>
                             </Grid>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>

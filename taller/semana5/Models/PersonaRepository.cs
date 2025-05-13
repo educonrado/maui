@@ -1,6 +1,7 @@
 ﻿using SQLite;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,6 +37,7 @@ namespace econradoS5B.Models
             int result = 0;
             try
             {
+                Init();
                 if (string.IsNullOrEmpty(name))
                 {
                     throw new Exception("El nombre es requerido.");
@@ -44,12 +46,12 @@ namespace econradoS5B.Models
                 
                 result = conn.Insert(persona);
 
-                Message = string.Format("Dato ingresado {0}", result, name);
+                Message = string.Format($"Dato ingresado {0}", result, name);
             }
             catch (Exception ex)
             {
 
-                Message = string.Format("Error {0}", ex);
+                Message = string.Format($"Error {0}", ex);
             }
         }
 
@@ -57,6 +59,7 @@ namespace econradoS5B.Models
         {
             try
             {
+                Init();
                 return conn.Table<Persona>().ToList();
             }
             catch (Exception ex)
@@ -65,6 +68,35 @@ namespace econradoS5B.Models
                 Message = string.Format("Error {0}", ex);
             }
             return new List<Persona>();
+        }
+
+        public void EliminarPersonaById(int personaId)
+        {
+            try
+            {
+                Init();
+                conn.Delete<Persona>(personaId);
+
+            }
+            catch (Exception ex)
+            {
+
+                Message = string.Format("Error al eliminar persona: {0}", personaId);
+            }
+        }
+
+        internal void EditarPersona(Persona persona)
+        {
+            try
+            {
+                Init();
+                conn.Update(persona);
+                Message = $"Persona con id {persona.Id} actualizada.";
+            }
+            catch (Exception ex)
+            {
+                Message = $"Error al editar persona con Id {persona?.Id}: {ex.Message}";
+            }
         }
     }
 }

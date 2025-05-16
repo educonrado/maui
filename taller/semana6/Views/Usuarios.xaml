@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="econradoS6B.Views.Usuarios"
+             Title="Usuarios">
+    <ScrollView>
+        <VerticalStackLayout Spacing="10"
+                             Padding="10">
+            <Label 
+            Text="Usuarios"
+            FontSize="Title"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <ListView x:Name="listUsuarios">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label x:Name="lblNombre"
+                                       Text="{Binding Nombre}"></Label>
+                                <Label x:Name="lblFechaCreacion"
+                                       Text="{Binding FechaCreacion}"></Label>
+                                <Image x:Name="imgAvatar"
+                                       Source="{Binding Avatar}"
+                                       WidthRequest="150"
+                                       ></Image>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

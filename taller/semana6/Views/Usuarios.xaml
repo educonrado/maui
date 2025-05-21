@@ -43,7 +43,8 @@
                        HorizontalOptions="Center"
                        VerticalOptions="Center" />
             </Grid>
-            <ListView x:Name="listUsuarios"
+            <ListView x:Name="listUsuarios" 
+                      ItemSelected="listUsuarios_ItemSelected"
                       SeparatorVisibility="Default"
                       SeparatorColor="#DDDDDD"
                       HasUnevenRows="True">
@@ -81,6 +82,9 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <Button x:Name="btnAddUsuario"
+                    Text="Añadir usuario"
+                    Clicked="btnAddUsuario_Clicked"></Button>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

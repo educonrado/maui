@@ -30,7 +30,7 @@ public partial class Usuarios : ContentPage
 		Debug.WriteLine("Eliminando");
 		if (sender is Button button && button.BindingContext is Usuario usuarioAEliminar)
 		{
-			bool confirmacion = await DisplayAlert("Eliminar", $"¿Está seguro de eliminar al usuario {usuarioAEliminar.Nombre}?", "Si", "No");
+			bool confirmacion = await DisplayAlert("Eliminar", $"Â¿EstÃ¡ seguro de eliminar al usuario {usuarioAEliminar.Nombre}?", "Si", "No");
             Debug.WriteLine("Eliminando"+confirmacion);
             if (!confirmacion)
 			{
@@ -40,9 +40,19 @@ public partial class Usuarios : ContentPage
             {
 				string urlEliminar = $"{URL_WS}/{usuarioAEliminar.uid}";
 				var res = await cliente.DeleteAsync(urlEliminar);
-				await DisplayAlert("Confirmación", "El usuario fue eliminado correctamente!", "Aceptar");
+				await DisplayAlert("ConfirmaciÃ³n", "El usuario fue eliminado correctamente!", "Aceptar");
 				CargarUsuarios();
             }
         }
     }
+     private void btnAddUsuario_Clicked(object sender, EventArgs e)
+ {
+     Navigation.PushAsync(new NuevoUsuario());
+ }
+
+ private void listUsuarios_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+ {
+     var parametro = (Usuario)e.SelectedItem;
+     Navigation.PushAsync(new NuevoUsuario(parametro));
+ }
 }

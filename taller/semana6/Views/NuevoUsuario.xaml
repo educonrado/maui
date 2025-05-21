@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="econradoS6B.Views.NuevoUsuario"
+             Title="NuevoUsuario">
+    <ScrollView>
+        <VerticalStackLayout Padding="10" Spacing="10">
+            <Label 
+            Text="Agregar nuevo usuario"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="20"
+            TextColor="DimGray"/>
+            <Label Text="Nombre:"></Label>
+            <Entry x:Name="txtNombre"
+                   Keyboard="Text"
+                   Placeholder="Nombre"></Entry>
+            <Label Text="Apellido:"></Label>
+            <Entry x:Name="txtApellido"
+                   Keyboard="Text"
+                   Placeholder="Apellido"></Entry>
+            <Label Text="Edad:"></Label>
+            <Entry x:Name="txtEdad"
+                   Keyboard="Numeric"
+                   MaxLength="2"
+                   Placeholder="Edad"></Entry>
+            <Button x:Name="btnGuardar"
+                    Text="Guardar"
+                    Clicked="btnGuardar_Clicked"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
